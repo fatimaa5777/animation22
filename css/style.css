@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mo{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/Oh-God111.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.div{
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #96d5e0;
+}
+.item{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    color: #586B8F;
+}
+.div1{
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        left: 0;
+    }
+    100%{
+        background-color:  #FEFFEA;
+        left:1400px;
+    }
+}
+.div2{
+    margin-top: 110px;
+    margin-left: 20px;
+    animation-delay: 2s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        right: 0;
+    }
+    100%{
+        background-color: #FEFFEA;
+        right:1400px;
+    }
+}
+.div3{
+    right: 0;
+    margin-top: 200px;
+    margin-right: 20px;
+    animation-delay: 4s; animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        left: 0;
+    }
+    100%{
+        background-color: #FEFFEA;
+        left: 1400px;
+    }
+}
+.div4{
+    margin-top: 290px;
+    margin-left: 20px;
+    animation-delay: 6s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        right: 0;
+    }
+    100%{
+    background-color: #FEFFEA;
+    right: 1400px;
+    }
+}
+.div5{
+    right: 0;
+    margin-top: 380px;
+    margin-right: 20px;
+    animation-delay: 8s; animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        left: 0;
+    }
+    100%{
+        background-color: #FEFFEA;
+        left: 1400px;
+    }
+}
+.div6{
+    margin-top: 470px;
+    margin-left: 20px;
+    animation-delay: 10s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        right: 0;
+    }
+    100%{
+    background-color: #FEFFEA;
+    right: 1400px;
+    }
+}
+.div7{
+    right: 0;
+    margin-top: 560px;
+    margin-right: 20px;
+    animation-delay: 12s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        left: 0;
+    }
+    100%{
+        background-color:  #FEFFEA;
+       left: 1400px;
+    }
+}
+.div8{
+    margin-top: 650px;
+    margin-left: 20px;
+    animation-delay: 14s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-color: #fcef99;
+        right: 0;
+    }
+    100%{
+    background-color:  #FEFFEA;
+    right: 1400px;
+    }
+}
